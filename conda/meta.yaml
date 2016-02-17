@@ -3,8 +3,8 @@ package:
   version: 0.12.20140410
 
 source:
-  fn: json-c-0.12-20140410.tar.gz
-  url: https://github.com/json-c/json-c/archive/json-c-0.12-20140410.tar.gz
+  git: https://github.com/json-c/json-c.git
+  git_rev:  537f8bcbdbdc10ffa7673199a0be82ca4eb56ec8
 
 build:
   number: 0
