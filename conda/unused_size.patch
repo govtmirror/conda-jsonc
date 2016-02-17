@@ -7,10 +7,10 @@ Subject: [PATCH] Remove unused variable 'size'
  json_tokener.c | 2 --
  1 file changed, 2 deletions(-)
 
-diff --git a/json_tokener.c b/json_tokener.c
+diff --git json_tokener.c json_tokener.c
 index 19de8ef..9a76293 100644
---- a/json_tokener.c
-+++ b/json_tokener.c
+--- json_tokener.c
++++ json_tokener.c
 @@ -352,12 +352,10 @@ struct json_object* json_tokener_parse_ex(struct json_tokener *tok,
  
      case json_tokener_state_inf: /* aka starts with 'i' */
